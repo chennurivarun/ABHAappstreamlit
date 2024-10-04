@@ -1,0 +1,48 @@
+User Opens the Web App:
+
+Entry Point: User visits the web app on any browser.
+Objective: Greet the user and guide them through the options available.
+Home Screen:
+
+Purpose: Give an overview of the app’s functions and direct users to the appropriate sections.
+Options Available:
+Create ABHA Account: For new users who don’t have an ABHA account yet.
+Login with ABHA Number/Address: For users with existing ABHA accounts.
+Profile Update: For users who want to update their ABHA profile.
+Scan & Share: For users to generate and share their profile via QR code.
+Creating an ABHA Account:
+
+Form Section:
+Input fields for Aadhaar Number and ABHA Address.
+Button for submission with validation for correct entries.
+Outcome:
+Success notification and next steps, such as logging in.
+Login with ABHA:
+
+Form Section:
+Input fields for ABHA Address/Number and Login Button.
+Outcome:
+Success notification and user navigates to dashboard with QR code generation option.
+Profile Update:
+
+Form Section:
+Input fields to update profile information.
+Update Button.
+Outcome:
+Success message after updating.
+Scan & Share:
+
+Generate QR Code button after successful login.
+Outcome: QR code displayed on the screen with sharing options.
+Logout (Optional):
+
+After successful completion of tasks, users can log out and return to the home screen.
+Key User Flow Path:
+Step 1: Home Screen ➡ Choose between Account Creation, Login, Profile Update, or Scan & Share.
+Step 2: User selects the appropriate function based on their current state.
+Step 3: Complete tasks and get feedback (success, error, etc.).
+Step 4: Continue to the next flow or return to the home screen.
+User Personas:
+First-Time Users: Users who are unfamiliar with the app and want to create an ABHA account. They need simple guidance and onboarding.
+Returning Users: Users who have an ABHA account and just want to log in to access their profile or update it.
+Power Users: Users who want to quickly log in, update profiles, or scan/share their QR code.
